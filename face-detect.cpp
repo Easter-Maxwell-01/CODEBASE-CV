@@ -6,6 +6,10 @@
 	Program : Image layout / display
 	[this is my first computer vision project / program]
 */
+/*
+	opencv tool must be installed and setup before running this program. 
+	To do so, watch this -> https://www.youtube.com/watch?v=unSce_GPwto.
+*/
 
 #include <iostream>
 #include <opencv2/core.hpp>
