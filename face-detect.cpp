@@ -7,7 +7,6 @@
 	[this is my first computer vision project / program]
 */
 /*
-				           REQUIREMENTS
 	opencv tool must be installed and setup before running this program. 
 	To do so, watch this -> https://www.youtube.com/watch?v=unSce_GPwto.
 */
