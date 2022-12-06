@@ -12,6 +12,7 @@
 */
 
 #include <iostream>
+
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
@@ -25,16 +26,12 @@ int main()
 {
 	cv::Mat image;
 
+	/*image source*/
 	image = cv::imread("C:\\Users\\MAX EASTER\\Downloads\\Tumblr.png");
-
-	cv::putText(image, 
-				"detected : orangutan",	/*text*/
-				cv::Point(80, 400),	/*text position*/
-				cv::FONT_HERSHEY_SIMPLEX,/*font type*/
-				1.0, /*font scale*/
-				0.0, /*text color (black)*/
-				2.8	/*text thickness*/
-		       );
+	
+	/*add text to image*/
+	cv::putText(image, "detected : orangutan",	cv::Point(80, 
+				400), cv::FONT_HERSHEY_SIMPLEX, 1.0, 0.0, 2);
 
 	/*file not found!*/
 	if (image.empty())
@@ -46,14 +43,14 @@ int main()
 
 		exit(100);
 	}
-
+	
 	/*display image*/
 	cv::imshow("Face Detection Application", image);
 
-	/*set the window size*/
+	/*set window size*/
 	cv::moveWindow("Face Detection Application", 0, 45);
 
-	/*create the window layout*/
+	/*create window layout*/
 	namedWindow("Face Detection Application", WINDOW_AUTOSIZE);
 
 	/*save image to project directory*/
@@ -61,7 +58,8 @@ int main()
 
 	/*wait for key press*/
 	cv::waitKey(0);
-	/*terminate the window*/
+	
+	/*terminates the window*/
 	cv::destroyAllWindows();
 
 	return -1;
