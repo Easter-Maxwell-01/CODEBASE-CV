@@ -26,7 +26,7 @@ int main()
 {
 	cv::Mat image;
 
-	/*image source*/
+	/*image source - include your own image here!*/
 	image = cv::imread("C:\\Users\\MAX EASTER\\Downloads\\Tumblr.png");
 	
 	/*add text to image*/
