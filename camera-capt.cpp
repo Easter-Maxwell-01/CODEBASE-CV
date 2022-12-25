@@ -12,18 +12,19 @@
 using namespace cv;
 using namespace std;
 
-int main() {
+int main() 
+{
 
         Mat frame;
         VideoCapture cap;
        
         /*open default camera*/
-        int deviceID = 0;  
+        int device_id = 0;  
 
         /*autodetect default API*/
-        int apiID = cv::CAP_ANY;
+        int api_id = cv::CAP_ANY;
    
-        cap.open(deviceID, apiID);
+        cap.open(device_id, api_id);
 
         /*didn't succeed*/
         if (!cap.isOpened()) 
