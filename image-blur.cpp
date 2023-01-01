@@ -34,7 +34,7 @@ int main()
 
         Sleep(2000);
 
-        return 1;
+        return -1;
     }
 
     
