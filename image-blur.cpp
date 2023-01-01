@@ -51,7 +51,8 @@ int main()
     /*GBlur(inputImage, outputImage, size, 0)*/
     GaussianBlur(gray, blur, kernel_size, 0);
 
-    /*detect edges in the image using canny edge detector
+    /*
+      detect edges in the image using canny edge detector
       canny(grayscale image, detector's output, lowthreshold, lowthreshold * 1)
     */
     Canny(blur, edges, low_threshold, low_threshold * ratio);
