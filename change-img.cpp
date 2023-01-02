@@ -2,7 +2,7 @@
 	Author : Easter Maxwell
 	Date : 7th December, 2022
 
-	Program : change given image to gray
+	Program : change given image to gray scale
 */
 
 #include <iostream>
