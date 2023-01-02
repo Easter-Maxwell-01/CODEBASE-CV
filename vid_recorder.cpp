@@ -2,9 +2,10 @@
         Author : Easter Maxwell
         Date : 2nd January, 2022
 
-        Program : video recorder
+        Program : video recorder and saver
         
         Note : press 'q', 'Q' to exit the program.
+        Note : Videos are stored in the projeect dir.
 */
 
 #include <iostream>
