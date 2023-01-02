@@ -3,6 +3,8 @@
        Date : 28th December, 2022
        
        Program : background subtractor
+       
+       Note : use the esc key to exit the program
 */
 
 #include <iostream>
@@ -11,8 +13,6 @@
 
 using namespace cv;
 using namespace std;
-
-/*use the escape key to exit the program*/
 
 int main()
 {
