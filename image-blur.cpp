@@ -23,8 +23,8 @@ int main()
 
     /*higher threshold -> more blur*/
 
-    /*image source*/
-    image = imread("C:\\Users\\MAX EASTER\\Downloads\\Tumblr.png");
+    /*image source [fill-in an image path!]*/
+    image = imread("");
 
     if (image.empty())
     {
