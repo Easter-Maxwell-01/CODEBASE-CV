@@ -58,8 +58,8 @@ int main()
     Canny(blur, edges, low_threshold, low_threshold * ratio);
 
     /*diplay images*/
-    imshow("original", image);
-    imshow("Processed", edges);
+    imshow("original image", image);
+    imshow("blurred image", edges);
 
     waitKey();
 
