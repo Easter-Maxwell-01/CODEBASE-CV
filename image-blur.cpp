@@ -60,6 +60,10 @@ int main()
     /*diplay images*/
     imshow("original image", image);
     imshow("blurred image", edges);
+       
+    /*save the images in project dir*/
+    imwrite("input_image.png", image);
+    imwrite("output_image.png", edges);
 
     waitKey();
 
